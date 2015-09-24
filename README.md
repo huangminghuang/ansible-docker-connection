@@ -1,5 +1,9 @@
 # Docker connection plugin for Ansible (obsolete)
 
+## Fork Note:
+
+This is a fork of the original Docker connection plugin (https://github.com/lorin/ansible-docker-connection) for Ansible 1.9.x. Although there is an official Docker connection plugin now, it's still in the development branch as of September 2015. If you want to use the Ansible stable version, this plugin is your best shot.
+
 ## Note: Ansible now ships with a Docker connection plugin
 
 There is now an [official Docker connection plugin](https://github.com/ansible/ansible/pull/11650). Please use that code instead of the one in this repo, which is obsolete.
